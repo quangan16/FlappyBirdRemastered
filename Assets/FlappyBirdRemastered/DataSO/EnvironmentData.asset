@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad8ca9171c1df1047bc7addc49c2479b, type: 3}
+  m_Name: EnvironmentData
+  m_EditorClassIdentifier: 
+  environments:
+  - backgroundImg: {fileID: 2800000, guid: 6e3ab60ec8f0ef64285a04d26fc0ece5, type: 3}
+    obstaclePrefab: {fileID: 2919541656864755906, guid: 28434f7084516a741aed88c2e44ced94, type: 3}
+    scoreColor:
+      serializedVersion: 2
+      rgba: 4281618390
+    dailyTime: 0
+  - backgroundImg: {fileID: 2800000, guid: daadf0f687b351a4f845022d7a7ad05b, type: 3}
+    obstaclePrefab: {fileID: 2919541656864755906, guid: 229ba74c754ab864399c8ec741c77882, type: 3}
+    scoreColor:
+      serializedVersion: 2
+      rgba: 4281659692
+    dailyTime: 1
