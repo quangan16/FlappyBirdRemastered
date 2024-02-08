@@ -14,6 +14,8 @@ public class Menu_Manager : MonoBehaviour
 
     public void Awake()
     {
+        Application.targetFrameRate = 60;
+        QualitySettings.vSyncCount = 0;
         if (playButton != null)
         {
             playButton.onClick.AddListener(StartGame);
