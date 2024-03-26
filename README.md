@@ -1,2 +1,2 @@
-# FlappyBirdRemastered_2024
+# FlappyBirdRemastered
 A project remaking flappy bird 
